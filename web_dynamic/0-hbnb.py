@@ -39,7 +39,7 @@ def hbnb():
      # Generate a UUID and convert it to a string
     cache_id = str(uuid4())
 
-return render_template('0-hbnb.html',
+    return render_template('0-hbnb.html',
                            states=st_ct,
                            amenities=amenities,
                            places=places,
